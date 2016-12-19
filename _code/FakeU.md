@@ -1,5 +1,5 @@
 ---
-title: "it's lit fam"
+title: "ECS 165A: Databases"
 ---
 ## Here's some code:
 
