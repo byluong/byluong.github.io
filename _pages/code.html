@@ -9,6 +9,6 @@ header:
   cta_url: "https://github.com/byluong"
 ---
 {% for project in site.portfolio %}
-  <h2>{{ project.title }}</h2>
+  <h2>[{{ project.title }}]({{ project.url }})</h2>
   {{project.content}}
 {% endfor %}
