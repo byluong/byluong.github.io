@@ -8,3 +8,6 @@ header:
   cta_label: "Github"
   cta_url: "https://github.com/byluong"
 ---
+{% for portfolio in site.portfolio %}
+  <h2>{{ portfolio.title }}</h2>
+{% endfor %}
