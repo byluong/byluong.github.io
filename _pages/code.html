@@ -1,6 +1,6 @@
 ---
 permalink: /code/
-layout: archive
+layout: single
 excerpt: "Code"
 header:
   overlay_image: assets/images/code.jpg
@@ -8,8 +8,7 @@ header:
   cta_label: "Github"
   cta_url: "https://github.com/byluong"
 ---
-
-
-  {% for project in site.code %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
+{% for project in site.code %}
+	{% include single.html type="grid" %}
+	{{ project.title }}
+{% endfor %}
