@@ -11,9 +11,10 @@ header:
 #Test before
 
 {% for project in site.code %}
-	{% include single.html type="grid" %}
-	{{ project.title }}
+  <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+  {{project.content}}
 {% endfor %}
+
 
 
 #Test after
