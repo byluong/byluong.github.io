@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "By Luong"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Brandon Luong"
+description              : "Yep."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Brandon Luong"
+  avatar           : "/assets/images/profile.jpg"
+  bio              : "memelord"
+  location         : "Bay Area, CA"
+  email            : "bluong@ucdavis.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,14 +89,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/byluong"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/brandonsluong"
   pinterest        :
-  soundcloud       :
+  soundcloud       : "https://soundcloud.com/basedgiraffe"
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
