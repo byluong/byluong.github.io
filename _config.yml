@@ -108,10 +108,10 @@ author:
 
 
 # Reading Files
-include: ["_pages"]
 include:
   - .htaccess
   - _pages
+  - _portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -237,6 +237,9 @@ collections:
   code:
     output: true
     permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -263,6 +266,13 @@ defaults:
   - scope:
       path: ""
       type: code
+    values:
+      layout: single
+      author_profile: true
+
+  - scope:
+      path: ""
+      type: portfolio
     values:
       layout: single
       author_profile: true
