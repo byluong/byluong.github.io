@@ -234,7 +234,7 @@ compress_html:
 
 #Collections
 collections:
-  portfolio:
+  code:
     output: true
     permalink: /:collection/:path/
 
@@ -262,7 +262,7 @@ defaults:
     # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: code
     values:
       layout: single
       author_profile: true
