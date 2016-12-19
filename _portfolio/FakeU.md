@@ -1,5 +1,9 @@
 ---
 title: "ECS 165A: Databases"
+excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+header:
+  image: assets/images/profile.jpg
+  teaser: assets/images/code.jpg
 ---
 ## Here's some code:
 
