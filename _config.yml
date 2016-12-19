@@ -111,7 +111,6 @@ author:
 include:
   - .htaccess
   - _pages
-  - _portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -239,6 +238,7 @@ collections:
     permalink: /:collection/:path/
   portfolio:
     output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -273,5 +273,5 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: archive
       author_profile: true
