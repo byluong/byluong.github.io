@@ -1,6 +1,6 @@
 ---
 ---
-
+<!-- based off of default.html -->
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
@@ -12,6 +12,12 @@
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+
+    <!-- override top nav bar "masthead" to get rid of scrollbar -->
+    <div class="masthead" style="
+      position: fixed;
+      width: 100%;
+      background: white;">
 
     {{ content }}
 
