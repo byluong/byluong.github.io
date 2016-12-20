@@ -4,7 +4,6 @@ layout: single
 excerpt: "it's me!"
 header:
   overlay_image: assets/images/profile.jpg
-  caption: ""
   cta_label: "Github"
   cta_url: "https://github.com/byluong"
 ---

@@ -89,14 +89,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/byluong"
+  github           : "byluong"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/brandonsluong"
+  linkedin         : "brandonsluong"
   pinterest        :
-  soundcloud       : "https://soundcloud.com/basedgiraffe"
+  soundcloud       : "basedgiraffe"
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
@@ -233,9 +233,6 @@ compress_html:
 
 #Collections
 collections:
-  code:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -264,14 +261,7 @@ defaults:
     # _portfolio
   - scope:
       path: ""
-      type: code
-    values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
       type: portfolio
     values:
-      layout: archive
+      layout: single
       author_profile: true
