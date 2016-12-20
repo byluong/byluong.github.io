@@ -1,10 +1,10 @@
 ---
 title: "ECS 165A: Databases"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
-  image: assets/images/profile.jpg
+  <!-- image: assets/images/profile.jpg -->
   teaser: assets/images/code.jpg
 ---
+University class database implemented in PostgreSQL.
 ## Here's some code:
 
 ```python

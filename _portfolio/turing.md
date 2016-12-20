@@ -3,6 +3,7 @@ title: "ECS 120: Theory of Computation"
 ---
 ## Here's some code:
 
+
 ```
 states: q1,qA,qR
 input_alphabet:  a,b,c,d,e,f
