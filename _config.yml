@@ -82,7 +82,7 @@ author:
   bio              : "memelord"
   location         : "Bay Area, CA"
   email            : "bluong@ucdavis.edu"
-  uri              :
+  uri              : "/assets/docs/resume.pdf"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -233,6 +233,9 @@ compress_html:
 
 #Collections
 collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -250,7 +253,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
+      share: true
       related: true
 
     # _pages

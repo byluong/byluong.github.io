@@ -1,5 +1,7 @@
 ---
 title: "gsgranite"
+header:
+  teaser: assets/images/gsgranite.JPG
 ---
 Full ground-up redesign of a local business’s website using HTML, CSS, and JS.
 

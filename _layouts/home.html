@@ -1,11 +1,36 @@
 ---
-layout: archive
 ---
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-{% include paginator.html %}
+	<div class="page__hero--overlay" 
+		style="
+		background-image: url(assets/images/code.jpg); 
+		height: 100vh; 
+		margin-bottom: 0px;">
+
+	<div style="
+		margin-left: auto;
+	    margin-right: auto;">
+ 	 {% include sidebar.html %}
+ 	</div>
+
+
+    {% include scripts.html %}
+
+  </body>
+</html>
+
+
+ 
+
+  

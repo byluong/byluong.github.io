@@ -1,8 +1,7 @@
 ---
 title: "Funix"
 header:
-  <!-- image: assets/images/profile.jpg -->
-  teaser: assets/images/code.jpg
+  teaser: assets/images/funix.PNG
 ---
 A faithful replica of the Bash CLI, written in C++ for my Object Oriented Programming class.  
 
@@ -21,7 +20,9 @@ Extensive use of classes, inheritance, and pointers.
 - Permissions + Users (full rwx behavior, recursively applied to subfolders too)
 
 
+
 ## Here's some code:
+
 ```c++
 void Directory::cp(int argCount, const char *arguments[], const char *user)
 {
@@ -62,5 +63,6 @@ void Directory::cp(int argCount, const char *arguments[], const char *user)
   cout << "cp: cannot stat ‘" << arguments[1] << "’: No such file or directory\n";
   cout << "Try 'cp --help' for more information.\n";
 }  // cp()
+
 ```
 Full source available on request.
