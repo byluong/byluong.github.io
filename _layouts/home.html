@@ -1,39 +1,8 @@
 ---
+layout: single
 ---
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+{% for post in paginator.posts %}
+  {{ post.content }}
+{% endfor %}
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-	<div class="page__hero--overlay" 
-		style="
-		background-image: url(assets/images/code.jpg); 
-		height: 100vh; 
-		margin-bottom: 0px;">
-
-	<div style="
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);">
- 	 {% include sidebar.html %}
- 	</div>
-
-
-    {% include scripts.html %}
-
-  </body>
-</html>
-
-
- 
-
-  
+{% include paginator.html %}
