@@ -2,9 +2,9 @@
 permalink: /about/
 layout: single
 ---
-> "If I'm going to sit behind a computer screen all day, I might as well make it my career".  
+<!-- > "If I'm going to sit behind a computer screen all day, I might as well make it my career".  
 > <cite>me, in 6th grade, after hitting level 100 in Runescape.</cite>
-
+ -->
 <figure style="width: 70%">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/about.jpg" alt="">
 </figure> 
