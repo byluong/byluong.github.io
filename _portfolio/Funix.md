@@ -6,18 +6,19 @@ header:
 A faithful replica of the Bash CLI, written in C++ for my Object Oriented Programming class.  
 
 Extensive use of classes, inheritance, and pointers.  
+
 ### Supported commands/concepts:
-- cd
-- mkdir
-- rm
-- ls
-- touch
-- chmod
-- su
-- chown
-- Persistent directories via file I/O (even after closing the simulation)
-- Timestamps
-- Permissions + Users (full rwx behavior, recursively applied to subfolders too)
+- cd  
+- mkdir  
+- rm  
+- ls  
+- touch  
+- chmod  
+- su  
+- chown  
+- Persistent directories via file I/O (even after closing the simulation)  
+- Timestamps  
+- Permissions + Users (full rwx behavior, recursively applied to subfolders too)  
 
 
 
