@@ -10,7 +10,7 @@ Data was supplied as .csv files, parsed in with Python and fed into PostgreSQL u
 
 [Full specs here](/assets/docs/Homework04.pdf)  
 
-Queries:  
+### Queries:
 - Calculate the percent of students that attempt 1 – 20 units of ABC or DEF per quarter for every unit increment (e.g. 1, 2, 3,…).  
 - Calculate the average GPA for the students that take each number of units from part a. Assume that the grades have standard grade points (A+ = 4.0, A = 4.0, A- = 3.7, B+ = 3.3…).  
 - Find the easiest and hardest instructors based upon the grades of all the students they have taught in their courses. Provide their name and the average grade they assigned.  
