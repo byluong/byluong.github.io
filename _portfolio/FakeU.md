@@ -11,13 +11,13 @@ Data was supplied as .csv files, parsed in with Python and fed into PostgreSQL u
 [Full specs here](/assets/docs/Homework04.pdf)  
 
 Queries:  
-1. Calculate the percent of students that attempt 1 – 20 units of ABC or DEF per quarter for every unit increment (e.g. 1, 2, 3,…).  
-2. Calculate the average GPA for the students that take each number of units from part a. Assume that the grades have standard grade points (A+ = 4.0, A = 4.0, A- = 3.7, B+ = 3.3…).  
-3. Find the easiest and hardest instructors based upon the grades of all the students they have taught in their courses. Provide their name and the average grade they assigned.  
-4. Do the analysis again for each ABC 100 level course that is offered, which instructor is the easiest/most difficult. For each course provide the instructors name and the average grade they assigned.  
-5. Find the list of courses that must have been offered in different summer sessions as they have meeting conflicts. Only list the pair once, put the course name/number string in alphabetically order of the pairs.  
-6. What major performs the best/worst on average in ABC courses?  
-7. What percent of students transfer into one of the ABC majors? What are the top 5 majors that students transfer from into ABC, and what is the percent of students from each of those majors?  
+- Calculate the percent of students that attempt 1 – 20 units of ABC or DEF per quarter for every unit increment (e.g. 1, 2, 3,…).  
+- Calculate the average GPA for the students that take each number of units from part a. Assume that the grades have standard grade points (A+ = 4.0, A = 4.0, A- = 3.7, B+ = 3.3…).  
+- Find the easiest and hardest instructors based upon the grades of all the students they have taught in their courses. Provide their name and the average grade they assigned.  
+- Do the analysis again for each ABC 100 level course that is offered, which instructor is the easiest/most difficult. For each course provide the instructors name and the average grade they assigned.  
+- Find the list of courses that must have been offered in different summer sessions as they have meeting conflicts. Only list the pair once, put the course name/number string in alphabetically order of the pairs.  
+- What major performs the best/worst on average in ABC courses?  
+- What percent of students transfer into one of the ABC majors? What are the top 5 majors that students transfer from into ABC, and what is the percent of students from each of those majors?  
 
 ## Here's some code (for #4):
 ```sql
