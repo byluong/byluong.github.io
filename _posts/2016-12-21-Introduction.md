@@ -3,6 +3,7 @@ title: "Better late than never"
 ---
 # Hi, I'm Brandon.
 I'm a third year Computer Science major at UC Davis.  
+I'm president of [Theta Tau](http://www.davisthetatau.com/) (a co-ed professional engineering fraternity).  
 I love gaming, coding, watching anime, and my cat [Marla](http://vsco.co/basedgiraffe/media/57aa64368da933c44f8b456a).  
 In my spare time I dabble in [graphic design](https://photos.google.com/share/AF1QipPZDcic5RhNqlu19qRLeRA6rbw6mYtzR9DqAo0Gn-SKw3AAIPuFg0V2stjN4sUJ2w?key=Q2dMOF83bnFJLVhkT0tUVzYzTFdHWkJRWFFYWjdR), [film](https://www.youtube.com/watch?v=qnBEv72tgNQ), and [photography](http://vsco.co/basedgiraffe/).  
 
