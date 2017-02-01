@@ -27,10 +27,10 @@ gallery3:
   - image_path: /assets/images/space.jpg
 ---
 ## Custom fabric pocket tees: rush shirts upgraded!
+[Full Album Here (TT Graphic Design)](https://photos.google.com/share/AF1QipPZDcic5RhNqlu19qRLeRA6rbw6mYtzR9DqAo0Gn-SKw3AAIPuFg0V2stjN4sUJ2w?key=Q2dMOF83bnFJLVhkT0tUVzYzTFdHWkJRWFFYWjdR)  
 Made with Adobe Photoshop and Illustrator, produced by [Apliiq](https://www.apliiq.com/). 
 {% include gallery class="full"%}
 {% include figure image_path="/assets/images/floralv3.jpg" class="full"%}
 {% include gallery id="gallery3" class="full"%}
 {% include figure image_path="/assets/images/shirtfront.jpg" class="full"%}
 {% include figure image_path="/assets/images/shirtback.jpg" class="full"%}
-[Full Album Here (TT Graphic Design)](https://photos.google.com/share/AF1QipPZDcic5RhNqlu19qRLeRA6rbw6mYtzR9DqAo0Gn-SKw3AAIPuFg0V2stjN4sUJ2w?key=Q2dMOF83bnFJLVhkT0tUVzYzTFdHWkJRWFFYWjdR)

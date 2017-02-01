@@ -15,7 +15,7 @@ Webmaster @ [Theta Tau](http://www.davisthetatau.com/)
 Public Relations Chair @ [Theta Tau](http://www.davisthetatau.com/)  
 Historian @ [Theta Tau](http://www.davisthetatau.com/)  
 
-Peek at my [code feed](/code/), look at my [portfolio](/portfolio/), or check out [what I do for fun](/visuals/).  
+Peek at my [code feed](/code/), look at my [portfolio](/portfolio/), or check out [my graphic design work](/visuals/).  
 
 <div class="grid__wrapper">
   {% for post in site.portfolio %}
